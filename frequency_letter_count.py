@@ -21,4 +21,4 @@ def printRLEs(s):
     print()
 
 
-printRLEs('raajendraa')
+printRLEs('success')
