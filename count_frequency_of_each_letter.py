@@ -1,3 +1,13 @@
+string = "Rajendra"
+count = { }
+for letter in string: # for every letter in string
+    if letter in count: # if letter is already in count
+        count[letter] += 1  # add 1 to that letter key
+    else:
+        count[letter] = 1
+print(count)
+
+
 def printRLEs(s):
 
     i=0
