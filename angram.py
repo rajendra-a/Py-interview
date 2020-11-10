@@ -18,7 +18,7 @@ def check_angram(s1, s2):
     # do reverse for the second string
 
     for letter in s2:
-        if letter in s2:
+        if letter in s1:
             count[letter] -= 1
         else:
             count[letter] = 1
