@@ -1,5 +1,5 @@
-for line in reversed(list(open('./Py-interview-progs/demofile.txt'))):
-    print(line.rstrip())
+#for line in reversed(list(open('./Py-interview-progs/demofile.txt'))):
+    #print(line.rstrip())
 
 g = open('out.txt', 'w')
 with open("demofile.txt", "r") as f:

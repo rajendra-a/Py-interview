@@ -6,3 +6,8 @@ while True:
     i += 1
     if (string[i] == "t"):
         break
+
+while(string[i] != "t"):
+    print(string[i], end="")
+    i += 1
+    
