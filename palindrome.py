@@ -6,3 +6,4 @@ if s1 == s2:
     print(string ,"is a palindrome")
 else:
     print(string, "is not a palindrome")
+

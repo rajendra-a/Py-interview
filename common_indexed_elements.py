@@ -14,3 +14,4 @@ def common_elements(lst1, lst2):
     return result
 
 print(common_elements([1, 2, 4, 6, 9], [1, 3, 4, 5, 9, 10]))
+
