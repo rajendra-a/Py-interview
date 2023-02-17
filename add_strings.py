@@ -25,4 +25,4 @@ def add_strings2(num1, num2):
     return str(n1 + n2)
 
 
-print(add_strings("str1", str2))
+print(add_strings("str1"+ "str2"))

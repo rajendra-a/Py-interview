@@ -4,5 +4,6 @@ def fibonacci(num):
     yield a
     a, b = b, a + b
     
-fibonacci(5)
-
+x = fibonacci(5)  # iterator object
+for x in x:
+  print(x)
