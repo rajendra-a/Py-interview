@@ -9,3 +9,7 @@ def average_len_words(sentence):
     return round(sum(len(word) for word in words)/len(words),2)
 
 print(average_len_words(sentence1))
+
+
+
+
